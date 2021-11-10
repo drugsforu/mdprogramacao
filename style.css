@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header nav ul li a{
+    color: white;
+}
+
+.header nav ul li {
+    padding: 0 20px 0 20px;
+}
+
+.header nav ul li a:hover {
+    background-color: #6e18f0;
+    border-radius: 80px;
+}
+
+.header .hamburguer {
+    border: 0;
+}
+
+.sobre {
+    background-color: #5000CA;
+}
+
+.sobre .textos {
+    margin-top: 200px;
+    color: white;
+}
+
+.sobre .imagem {
+    margin-top: 150px;
+}
+
+.sobre .wave {
+    width: 100%;
+    height: 10px;
+}
+
+.trabalhos {
+    background-color: black;
+}
+
+.trabalhos .texto span {
+    color: white;
+}
+
+.trabalhos a {
+    border-radius: 80px;
+    
+}
+
+.trabalhos .cards {
+    margin-top: 40px;
+    padding: 20px 0;
+}
+
+.formacoes {
+    background-color: #5000CA;
+}
+
+.formacoes .texto span{
+    color: white;
+}
+
+.formacoes .imagem {
+    text-align: center;
+}
+
+.footer {
+    padding: 10px 0 10px 0;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.footer .spaninicio {
+    color: white;
+}
+
+.footer .instagram:hover,.linkedin:hover {
+    color: #5000CA;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
