@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header nav ul li a{
+    color: white;
+}
+
+.header nav ul li {
+    padding: 0 20px 0 20px;
+}
+
+.header nav ul li a:hover {
+    background-color: #6e18f0;
+    border-radius: 5px;
+}
+
+.header .hamburguer {
+    border: none;
+    outline: none;
+}
+
+.sobre {
+    background-color: #5000CA;
+}
+
+
+.sobre .textos {
+    margin-top: 200px;
+    color: white;
+}
+
+.sobre .imagem {
+    margin-top: 150px;
+}
+
+.sobre .wave {
+    width: 100%;
+    height: 10px;
+}
+
+.trabalhos {
+    background-color: black;
+}
+
+.trabalhos .texto span {
+    color: white;
+    font-weight: 600;
+}
+
+.trabalhos a {
+    border-radius: 80px;
+    
+}
+
+.trabalhos .cards {
+    margin-top: 40px;
+    padding: 20px 0;
+}
+
+.trabalhos .cards .card {
+    border-radius: 15px;
+}
+
+.formacoes {
+    background-color: #5000CA;
+}
+
+.formacoes .texto span{
+    color: white;
+    font-weight: 600;
+}
+
+.formacoes .imagem {
+    text-align: center;
+}
+
+.formacoes .passeomouse {
+    text-align: center;
+    color: white;
+}
+
+.footer {
+    padding: 10px 0 10px 0;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.footer .spaninicio {
+    color: white;
+}
+
+.footer .instagram:hover,.linkedin:hover {
+    color: #5000CA;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .trabalhos .cards .card {
+        margin: 10px;
+    }
+    .header nav ul li a:hover {
+        background-color: #212529;
+    }
+}
